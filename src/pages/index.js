@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "@/components/Hero";
 import Slider from "@/components/Slider";
 import { SliderData } from "@/components/SliderData";
+import Flickr from "@/components/Flickr";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         message="I capture moments in nature and keep them alive."
       />
       <Slider data={SliderData} />
+      <Flickr />
     </>
   );
 }

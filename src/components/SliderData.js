@@ -14,4 +14,7 @@ export const SliderData = [
   {
     image: "/slider5.jpg",
   },
+  {
+    image: "/hero.png",
+  },
 ];
