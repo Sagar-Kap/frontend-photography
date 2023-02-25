@@ -1,23 +1,17 @@
-import slider1 from "../../public/slider1.jpg";
-import slider2 from "../../public/slider2.jpg";
-import slider3 from "../../public/slider3.jpg";
-import slider4 from "../../public/slider4.jpg";
-import slider5 from "../../public/slider5.jpg";
-
 export const SliderData = [
   {
-    image: slider1,
+    image: "/slider1.jpg",
   },
   {
-    image: slider2,
+    image: "/slider2.jpg",
   },
   {
-    image: slider3,
+    image: "/slider3.jpg",
   },
   {
-    image: slider4,
+    image: "/slider4.jpg",
   },
   {
-    image: slider5,
+    image: "/slider5.jpg",
   },
 ];

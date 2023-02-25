@@ -44,16 +44,16 @@ const NavBar = () => {
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-4">
+          <li className="p-4 hover:text-gray-300">
             <Link href="/">Home</Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 hover:text-gray-300">
             <Link href="/#gallery">Gallery</Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 hover:text-gray-300">
             <Link href="/portfolio">Work</Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 hover:text-gray-300">
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
@@ -73,16 +73,16 @@ const NavBar = () => {
           } ${navClassNames.transition}`}
         >
           <ul style={{ color: "white" }} className="flex flex-col items-center">
-            <li className="p-4">
+            <li className="p-4 hover:text-gray-400">
               <Link href="/">Home</Link>
             </li>
-            <li className="p-4">
+            <li className="p-4 hover:text-gray-400">
               <Link href="/#gallery">Gallery</Link>
             </li>
-            <li className="p-4">
+            <li className="p-4 hover:text-gray-400">
               <Link href="/portfolio">Work</Link>
             </li>
-            <li className="p-4">
+            <li className="p-4 hover:text-gray-400">
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
