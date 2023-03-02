@@ -13,8 +13,7 @@ const Footer = () => {
     <div className="text-white bg-black">
       <h1 className="p-5 text-3xl font-bold text-center">Capture</h1>
       <div className="flex flex-col items-center">
-        <p>All rights reserved ©2020-{year} </p>
-        <div className="flex flex-row gap-5 m-5">
+        <div className="flex flex-row gap-5 mb-5">
           <FaLinkedin
             size="20"
             className="transition-all duration-300 hover:transform hover:scale-110"
@@ -22,6 +21,7 @@ const Footer = () => {
           <FaGithub size="20" />
           <FaVolleyballBall size="20" />
         </div>
+        <p className="mb-5 text-xs">All rights reserved ©2020-{year} </p>
       </div>
     </div>
   );

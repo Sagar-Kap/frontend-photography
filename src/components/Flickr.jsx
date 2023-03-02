@@ -4,7 +4,7 @@ import FlickrImage from "./FlickrImage";
 const Flickr = () => {
   return (
     <div
-      className="m-2-[1240px] mx-auto text-center py-24
+      className="m-2-[1240px] mx-auto text-center pb-24 pt-14
     "
     >
       <p className="text-2xl font-bold">Follow me on Flick</p>

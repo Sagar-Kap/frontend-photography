@@ -19,9 +19,9 @@ const Slider = ({ data }) => {
   }
 
   return (
-    <div id="gallery" className=" max-w-[1240px] mx-auto ">
+    <div id="gallery" className=" max-w-[900px] mx-auto ">
       <h1 className="p-4 text-2xl font-bold text-center">Gallery</h1>
-      <div className="relative flex justify-center p-4">
+      <div className="relative flex justify-center p-4 ">
         {data.map((slider, index) => {
           return (
             <div
