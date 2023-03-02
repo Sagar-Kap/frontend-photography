@@ -28,7 +28,7 @@ const Contact = () => {
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="w-full p-3 mt-2 border shadow-lg hover:bg-slate-200">
+        <button className="w-full p-3 mt-2 transform border shadow-lg hover:bg-slate-200 hover:translate-y-0.5">
           Submit
         </button>
       </form>

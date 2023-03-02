@@ -73,16 +73,16 @@ const NavBar = () => {
           } ${navClassNames.transition}`}
         >
           <ul style={{ color: "white" }} className="flex flex-col items-center">
-            <li className="p-4 hover:text-gray-400">
+            <li onClick={handleNav} className="p-4 hover:text-gray-400">
               <Link href="/">Home</Link>
             </li>
-            <li className="p-4 hover:text-gray-400">
+            <li onClick={handleNav} className="p-4 hover:text-gray-400">
               <Link href="/#gallery">Gallery</Link>
             </li>
-            <li className="p-4 hover:text-gray-400">
-              <Link href="/portfolio">Work</Link>
+            <li onClick={handleNav} className="p-4 hover:text-gray-400">
+              <Link href="/work">Work</Link>
             </li>
-            <li className="p-4 hover:text-gray-400">
+            <li onClick={handleNav} className="p-4 hover:text-gray-400">
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
