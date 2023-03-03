@@ -36,7 +36,7 @@ export default function Home() {
         <meta property="og:title" content="Capture" />
         <meta
           property="og:image"
-          content="https://frontend-photography-wheat.vercel.app/hero.png"
+          content="https://frontend-photography-wheat.vercel.app/_next/image?url=%2Fslider3.jpg&w=1080&q=75"
         />
         <meta
           property="og:description"
