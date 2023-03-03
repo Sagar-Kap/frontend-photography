@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Photography App</title>
+        <title>Capture</title>
         <meta
           name="description"
           content="Look through the lens of your heart!"
