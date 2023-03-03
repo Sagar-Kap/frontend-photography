@@ -33,6 +33,12 @@ export default function Home() {
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
+        <meta property="og:title" content="Capture" />
+        <meta property="og:image" content="/hero.png" />
+        <meta
+          property="og:description"
+          content="Look through the lens of your heart!"
+        />
       </Head>
       <Hero
         heading="Capture Photography"
