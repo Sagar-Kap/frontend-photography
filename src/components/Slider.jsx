@@ -39,7 +39,13 @@ const Slider = ({ data }) => {
               />
 
               {index === current && (
-                <Image src={slider.image} alt="/" width="1440" height="600" />
+                <Image
+                  src={slider.image}
+                  alt="/"
+                  width="1440"
+                  height="600"
+                  priority
+                />
               )}
               <FaArrowAltCircleRight
                 onClick={nextSlide}
