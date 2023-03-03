@@ -34,7 +34,10 @@ export default function Home() {
         />
         <link rel="manifest" href="/site.webmanifest" />
         <meta property="og:title" content="Capture" />
-        <meta property="og:image" content="/hero.png" />
+        <meta
+          property="og:image"
+          content="https://frontend-photography-wheat.vercel.app/hero.png"
+        />
         <meta
           property="og:description"
           content="Look through the lens of your heart!"
