@@ -5,7 +5,7 @@ const something = async () => {
     params: {
       query: "nature",
       per_page: 5,
-      page: 1,
+      page: Math.floor(Math.random() * 100) + 1,
       client_id: process.env.NEXT_PUBLIC_KEY,
     },
   });
