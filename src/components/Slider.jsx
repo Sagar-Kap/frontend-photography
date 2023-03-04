@@ -28,7 +28,7 @@ const Slider = ({ data }) => {
               key={index}
               className={
                 index === current
-                  ? "opacity-[1] ease-in duration-1000"
+                  ? "opacity-[1] ease-in duration-300"
                   : "opacity-0"
               }
             >
