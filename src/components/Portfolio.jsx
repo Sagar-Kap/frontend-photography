@@ -18,7 +18,7 @@ const Portfolio = () => {
     <div className="max-w-[1240px] mx-auto py-16 text-center">
       <h1 className="p-4 text-2xl font-bold">Travel Photos</h1>
       <div className="grid grid-rows-2 gap-4 m-4 lg:grid-cols-4">
-        <div className="flex items-center col-span-2 row-span-2 border-black rounded border-5 w-550 h-300">
+        <div className="flex items-center col-span-2 row-span-2">
           {images.length > 0 ? (
             <Image
               src={images[0].urls.regular}
