@@ -62,7 +62,7 @@ const NavBar = () => {
 
         <div onClick={handleNav} className="z-10 block sm:hidden">
           {nav ? (
-            <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
+            <AiOutlineClose size={20} style={{ color: "white" }} />
           ) : (
             <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
           )}
