@@ -1,0 +1,38 @@
+version: 2
+
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "08:00"
+      timezone: "Europe/Sofia"
+    labels:
+      - "dependencies"
+    assignees:
+      - Sagar-Kap
+    commit-message:
+      prefix: "chore: "
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "08:00"
+      timezone: "Europe/Sofia"
+    labels:
+      - "dependencies"
+    assignees:
+      - Sagar-Kap
+    commit-message:
+      prefix: "chore: "
+    ignore:
+      - dependency-name: next
+        update-types:
+          - version-update:semver-major
+      - dependency-name: react
+        update-types:
+          - version-update:semver-major
+      - dependency-name: react-dom
+        update-types:
+          - version-update:semver-major
