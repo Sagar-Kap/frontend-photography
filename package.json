@@ -12,7 +12,7 @@
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^6.1.2",
-    "@next/font": "^14.2.14",
+    "@next/font": "^14.2.15",
     "axios": "^1.7.7",
     "eslint": "^8.57.1",
     "eslint-config-next": "14.2.14",
