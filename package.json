@@ -13,7 +13,7 @@
     "@emotion/styled": "^11.13.5",
     "@mui/material": "^6.1.9",
     "@next/font": "^14.2.15",
-    "axios": "^1.7.8",
+    "axios": "^1.7.9",
     "eslint": "^8.57.1",
     "eslint-config-next": "15.0.3",
     "next": "13.5.7",
